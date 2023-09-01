@@ -1,0 +1,66 @@
+body {
+background-color: #000;
+font-family: 'Segoe UI', sans-serif;
+}
+.container {
+width: 9;
+max-width: 500px;
+margin: 100px auto; padding: 20px;
+background-color: #FFF;
+box-shadow: 0 5px 15px rgba(223, 214, 214, 0.911);
+text-align: center;
+}
+
+h1{
+font-size: 2.5em;
+color: #413e39;
+text-shadow: 2px 2px rgba(109, 103, 103, 0.377);
+margin-top: 8;
+}
+
+P{
+font-size: 1.2em;
+ color: #555;
+margin-top: 30;
+}
+
+.custom-file-upload {
+
+display: inline-block;  
+padding: 0px 20px;
+font-size: 1.2em;
+font-weight: bold;
+color: #FFF; 
+background-color: #6295e7;
+border-radius: 4px; cursor: pointer;
+transition: all 0.3s ease-in-out;
+ }
+custom-file-upload:hover {
+background-color: #2A66C2;
+ }
+.custom-file-upload input[type="file"] {
+display: none;
+   }
+.fa-cloud-upload {
+margin-right: 10px;
+padding: 100px;
+   }
+.file-info p {
+display: inline-block;
+ }
+#file-name{
+display: inline-block;
+font-weight: bold;
+}
+
+pre {
+border: 1px solid #ccc;
+padding: 10px;
+background-color: #F8F8F8;
+font-size: 1.2em;
+line-height: 1.4;
+white-space: pre-wrap;
+overflow-x: auto;
+margin-top: 20px;
+text-align: initial;
+}
